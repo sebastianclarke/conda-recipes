@@ -3,8 +3,7 @@ package:
   version: 1.1.2
 
 source:
-  fn: tuiview-1.1.2.tar.gz
-  url: https://bitbucket.org/chchrsc/tuiview/downloads/tuiview-1.1.2.tar.gz
+  hg_url: https://bitbucket.org/chchrsc/tuiview
 
 requirements:
   build:
@@ -19,7 +18,7 @@ requirements:
     - pyqt
 
 build:
-  number: 1
+  number: 2
 
 about:
   home: https://bitbucket.org/chchrsc/tuiview
