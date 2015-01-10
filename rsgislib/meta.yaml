@@ -1,6 +1,6 @@
 package:
   name: rsgislib
-  version: "2.2.982"
+  version: "2.2.1006"
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib
@@ -9,7 +9,7 @@ requirements:
   build:
     - cmake
     - boost 1.54.0
-    - hdf5 1.8.13
+    - hdf5 1.8.14
     - xerces-c
     - muparser
     - gsl
@@ -24,7 +24,7 @@ requirements:
     - numpy
   run:
     - boost 1.54.0
-    - hdf5 1.8.13
+    - hdf5 1.8.14
     - xerces-c
     - muparser
     - gsl
