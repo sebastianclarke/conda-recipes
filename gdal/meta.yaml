@@ -10,23 +10,23 @@ requirements:
   build:
     - python
     - numpy
-    - xerces-c
+    - xerces-c [not win]
     - geos
     - proj4
-    - netcdf4
+    - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
-    - curl
+    - curl [not win]
   run:
     - python
     - numpy
-    - xerces-c
+    - xerces-c [not win]
     - geos
     - proj4
-    - netcdf4
+    - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
-    - curl
+    - curl [not win]
 
 build:
   number: 11

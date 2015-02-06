@@ -1,15 +1,15 @@
 package:
   name: kealib
-  version: "1.4.4"
+  version: "1.4.5"
 
 source:
   hg_url: https://bitbucket.org/chchrsc/kealib/
-  hg_tag: kealib-1.4.4
+  hg_tag: kealib-1.4.5
 requirements:
   build:
     - hdf5 1.8.14
     - gdal 1.11.1
-    - cmake
+    - cmake [not win]
   run:
     - hdf5 1.8.14
     - gdal 1.11.1
