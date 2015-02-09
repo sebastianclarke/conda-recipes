@@ -10,7 +10,7 @@ requirements:
   build:
     - python
     - numpy
-    - xerces-c [not win]
+    - xerces-c
     - geos
     - proj4
     - netcdf4 [not win]
