@@ -5,6 +5,7 @@ cmake -D CMAKE_INSTALL_PREFIX=%PREFIX% ^
 -D HDF5_LIB_PATH=%PREFIX%\lib ^
 -D GDAL_INCLUDE_DIR=%PREFIX%\include ^
 -D GDAL_LIB_PATH=%PREFIX%\lib ^
+-D CMAKE_BUILD_TYPE=Release ^
 -G "NMake Makefiles" .
 if errorlevel 1 exit 1
 
