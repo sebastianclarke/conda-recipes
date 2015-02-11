@@ -16,7 +16,7 @@ requirements:
     - geos
     - proj4
     - gdal 1.11.1
-    - kealib 1.4.4
+    - kealib 1.4.5
     - gmp
     - mpfr
     - cgal
@@ -31,12 +31,15 @@ requirements:
     - geos
     - proj4
     - gdal 1.11.1
-    - kealib 1.4.4
+    - kealib 1.4.5
     - gmp
     - mpfr
     - cgal
     - python
     - numpy
+
+build:
+  number: 1
 
 about:
   home: http://www.rsgislib.org
