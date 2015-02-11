@@ -25,4 +25,4 @@ build:
 about:
   home: https://bitbucket.org/chchrsc/kealib/
   license: MIT
-  summary: The KEA format provides an implementation of the GDAL specification within the the HDF5 file format.  For the KEA driver to be recognised by GDAL the following environmental variable must be set 'GDAL_DRIVER_PATH' to the anaconda directory (e.g., '~/anaconda/gdalplugins')
+  summary: The KEA format provides an implementation of the GDAL specification within the the HDF5 file format.  For the KEA driver to be recognised by GDAL the following environmental variable must be set 'GDAL_DRIVER_PATH' to the anaconda directory (e.g., '~/anaconda/lib/gdalplugins')
