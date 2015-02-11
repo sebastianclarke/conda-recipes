@@ -20,7 +20,7 @@ test:
     - run_test.py
 
 build:
-  number: 2
+  number: 0
 
 about:
   home: https://bitbucket.org/chchrsc/kealib/
