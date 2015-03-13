@@ -3,7 +3,7 @@ package:
   version: "2.2.1"
 
 build:
-  number: 2
+  number: 4
 
 source:
   hg_url: https://bitbucket.org/petebunting/spd-3d-points-viewer
@@ -11,12 +11,12 @@ source:
 requirements:
   build:
     - cmake
-    - hdf5 1.8.13
+    - hdf5 1.8.14
     - boost 1.54.0
     - gdal 1.11.1
     - spdlib 3.2.0
   run:
-    - hdf5 1.8.13
+    - hdf5 1.8.14
     - boost 1.54.0
     - gdal 1.11.1
     - spdlib 3.2.0
