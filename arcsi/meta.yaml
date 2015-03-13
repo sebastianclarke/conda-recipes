@@ -9,18 +9,18 @@ requirements:
   build:
     - python
     - py6s
-    - gdal 1.11.1
+    - gdal 1.11.*
     - rsgislib
     - rios
   run:
     - python
     - py6s
-    - gdal 1.11.1
+    - gdal 1.11.*
     - rsgislib
     - rios
 
 build:
-  number: 1
+  number: 2
 
 about:
   home: http://rsgislib.org/arcsi

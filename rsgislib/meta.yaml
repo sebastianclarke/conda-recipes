@@ -1,6 +1,6 @@
 package:
   name: rsgislib
-  version: "2.2.1017"
+  version: "2.2.1018"
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib
@@ -15,7 +15,7 @@ requirements:
     - gsl
     - geos
     - proj4
-    - gdal 1.11.1
+    - gdal 1.11.2
     - kealib 1.4.5
     - gmp
     - mpfr
@@ -30,7 +30,7 @@ requirements:
     - gsl
     - geos
     - proj4
-    - gdal 1.11.1
+    - gdal 1.11.2
     - kealib 1.4.5
     - gmp
     - mpfr
@@ -39,7 +39,7 @@ requirements:
     - numpy
 
 build:
-  number: 1
+  number: 0
 
 about:
   home: http://www.rsgislib.org

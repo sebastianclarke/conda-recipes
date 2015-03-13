@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Checkout the default branch of SPDLib
+hg update default
+
 if [ `uname` == Darwin ]; then
     export DYLD_LIBRARY_PATH=$PREFIX/lib
     PYTHONLIB=$PREFIX/lib/libpython3.4m.dylib

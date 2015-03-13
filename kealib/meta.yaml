@@ -8,11 +8,11 @@ source:
 requirements:
   build:
     - hdf5 1.8.14
-    - gdal 1.11.1
+    - gdal 1.11.2
     - cmake [not win]
   run:
     - hdf5 1.8.14
-    - gdal 1.11.1
+    - gdal 1.11.2
     - zlib
 
 test:
@@ -20,7 +20,7 @@ test:
     - run_test.py
 
 build:
-  number: 0
+  number: 1
 
 about:
   home: https://bitbucket.org/chchrsc/kealib/
