@@ -22,4 +22,4 @@ test:
 about:
     home: http://www.bzip.org
     license: BSD-like
-
+    summary: bzip2 is a freely available, patent free, high-quality data compressor. Package includes headers and libbzip2.
