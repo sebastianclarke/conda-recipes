@@ -1,6 +1,9 @@
 package:
   name: rsgislib
-  version: "2.2.1018"
+  version: "2.2.1020"
+
+build:
+    number: 1
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib
@@ -37,9 +40,6 @@ requirements:
     - cgal
     - python
     - numpy
-
-build:
-  number: 0
 
 about:
   home: http://www.rsgislib.org
