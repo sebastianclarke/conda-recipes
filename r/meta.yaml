@@ -21,3 +21,4 @@ test:
 about:
   home: http://www.r-project.org/
   license: GPL
+  summary: R is a free software environment for statistical computing and graphics. Built without X.
