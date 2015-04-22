@@ -1,0 +1,25 @@
+package:
+  name: pylidar
+  version: 0.01
+
+source:
+  hg_url: https://bitbucket.org/chchrsc/pylidar
+
+requirements:
+  build:
+    - python
+    - numpy
+  run:
+    - python
+    - numpy
+    - gdal 1.11.*
+    - rios
+    - numba
+
+build:
+  number: 0
+
+about:
+  home: http://pylidar.org/
+  license: GPLv3
+  summary: RIOS for LiDAR
