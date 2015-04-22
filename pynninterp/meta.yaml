@@ -1,0 +1,22 @@
+package:
+  name: pynninterp
+  version: 1.0
+
+source:
+  hg_url: https://bitbucket.org/petebunting/pynninterp
+
+requirements:
+  build:
+    - python
+    - numpy
+  run:
+    - python
+    - numpy
+
+build:
+  number: 0
+
+about:
+  home: https://bitbucket.org/petebunting/pynninterp
+  license: GPLv3
+  summary: Natural Neighbour Interpolation for use with PyLidar.
