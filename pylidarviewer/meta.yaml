@@ -1,0 +1,24 @@
+package:
+  name: pylidarviewer
+  version: 0.1
+
+source:
+  hg_url: https://bitbucket.org/petebunting/pylidarviewer
+
+requirements:
+  build:
+    - python
+    - numpy
+    - qt
+  run:
+    - python
+    - numpy
+    - qt
+
+build:
+  number: 0
+
+about:
+  home: https://bitbucket.org/petebunting/pylidarviewer
+  license: GPLv2
+  summary: LiDAR viewer
