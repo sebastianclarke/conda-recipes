@@ -1,24 +1,32 @@
 package:
   name: qt
-  version: 4.8.5
+  version: 4.8.6
 
 source:
-  fn: qt-everywhere-opensource-src-4.8.5.tar.gz # [not osx]
-  url: http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz # [not osx]
-  md5: 1864987bdbb2f58f8ae8b350dfdbe133 # [not osx]
-  # https://github.com/Homebrew/homebrew/blob/master/Library/Formula/qt.rb
-  fn: f44310c25b372f494586dbb5b305f7e81ca63000.tar.gz # [osx]
-  url: https://github.com/qtproject/qt/archive/f44310c25b372f494586dbb5b305f7e81ca63000.tar.gz # [osx]
-  sha1: 51548326463068912fb4d9de04b0f6b2e267d064 # [osx]
+  fn: qt-everywhere-opensource-src-4.8.6.tar.gz [unix]
+  fn: qt-everywhere-opensource-src-4.8.6.zip [win]
+  url: http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz [unix]
+  url: http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.zip [win]
+  sha1: ddf9c20ca8309a116e0466c42984238009525da6 [unix]
+  md5: 61f7d0ebe900ed3fb64036cfdca55975 [win]
   patches:
-    - acceptance.patch
+    - acceptance.patch [unix]
+    - qmake-arch.patch                 [osx]
+    - ubuntu_disable_scrollbars.patch  [linux]
 
 build:
-  number: 2
+  number: 13
 
 requirements:
   build:
-    - freetype
+    - freetype    >=2.5.2    [unix]
+    - fontconfig  >=2.11.1   [linux]
+    - openssl
+
+  run:
+    - freetype    >=2.5.2    [unix]
+    - fontconfig  >=2.11.1   [linux]
+    - openssl
 
 about:
     home: http://qt-project.org
