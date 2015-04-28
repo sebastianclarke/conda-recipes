@@ -34,13 +34,17 @@ LinuxInstallation() {
 }
 
 MacOSXInstallation() {
-
+	
+	export CC=clang
+	export CXX=clang++
+	
     chmod +x configure;
 
     ./configure \
         --disable-static \
         --with-ssl \
         --with-zlib \
+        --with-jpeg \
         --prefix=${PREFIX} || return 1;
     make || return 1;
     make install || return 1;

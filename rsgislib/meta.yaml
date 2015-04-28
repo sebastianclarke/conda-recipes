@@ -1,6 +1,6 @@
 package:
   name: rsgislib
-  version: "2.2.1021"
+  version: "2.2.1036"
 
 build:
     number: 1
@@ -11,7 +11,7 @@ source:
 requirements:
   build:
     - cmake
-    - boost 1.54.0
+    - boost 1.58.0
     - hdf5 1.8.14
     - xerces-c
     - muparser
@@ -26,7 +26,7 @@ requirements:
     - python
     - numpy
   run:
-    - boost 1.54.0
+    - boost 1.58.0
     - hdf5 1.8.14
     - xerces-c
     - muparser
