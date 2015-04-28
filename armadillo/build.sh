@@ -1,6 +1,10 @@
 #!/bin/bash
 
 cmake -D CMAKE_INSTALL_PREFIX=$PREFIX \
+-D DETECT_HDF5=OFF \
+-D CMAKE_SKIP_RPATH=YES \
+-D CMAKE_OSX_DEPLOYMENT_TARGET=10.10 \
 .
+
 make
 make install

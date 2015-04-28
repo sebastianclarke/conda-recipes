@@ -1,10 +1,10 @@
 package:
   name: armadillo
-  version: "4.500.0"
+  version: "5.000.1"
 
 source:
-  fn: armadillo-4.500.0.tar.gz 
-  url: http://downloads.sourceforge.net/project/arma/armadillo-4.500.0.tar.gz
+  fn: armadillo-5.000.1.tar.gz
+  url: http://sourceforge.net/projects/arma/files/armadillo-5.000.1.tar.gz
 
 requirements:
   build:

@@ -16,7 +16,9 @@ requirements:
     - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
+    - hdf4
     - curl [not win]
+    - armadillo [not win]
   run:
     - python
     - numpy
@@ -26,10 +28,12 @@ requirements:
     - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
+    - hdf4
     - curl [not win]
+    - armadillo [not win]
 
 build:
-  number: 10
+  number: 11
 
 test:
   files:
