@@ -12,6 +12,8 @@ requirements:
   run:
     - gmp
 
+build:
+  number: 1
 
 about:
   home: http://www.mpfr.org/

@@ -1,12 +1,13 @@
 package:
   name: ne
-  version: "2.5"
+  version: "2.6"
+
+build:
+  number: 1
 
 source:
-  fn: ne-2.5.tar.gz
-  url: http://ne.di.unimi.it/ne-2.5.tar.gz
-
-requirements:
+  fn: ne-2.6.tar.gz
+  url: http://ne.di.unimi.it/ne-2.6.tar.gz
 
 about:
   home: http://ne.di.unimi.it

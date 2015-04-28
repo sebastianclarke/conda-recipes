@@ -2,11 +2,12 @@ package:
   name: gsl
   version: "1.16"
 
+build:
+  number: 1
+
 source:
   fn: gsl-1.16.tar.gz
   url: http://ftp.gnu.org/gnu/gsl/gsl-1.16.tar.gz
-
-requirements:
 
 about:
   home: http://www.gnu.org/software/gsl/

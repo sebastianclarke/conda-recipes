@@ -2,13 +2,18 @@ package:
   name: sixs
   version: "1.1.1"
 
+build:
+  number: 1
+
 source:
   hg_url: https://bitbucket.org/petebunting/6s
 
 requirements:
   build:
     - cmake
+    - gcc
   run:
+    - gcc
 
 test:
   files:
