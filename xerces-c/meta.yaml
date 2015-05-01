@@ -1,14 +1,14 @@
 package:
   name: xerces-c
-  version: "3.1.1"
+  version: "3.1.2"
 
 source:
-  fn: xerces-c-3.1.1.tar.gz [not win]
-  fn: xerces-c-3.1.1.zip [win]
-  url: http://mirrors.ibiblio.org/apache/xerces/c/3/sources/xerces-c-3.1.1.tar.gz [not win]
-  url: http://mirrors.ibiblio.org/apache/xerces/c/3/sources/xerces-c-3.1.1.zip [win]
-  md5: 6a8ec45d83c8cfb1584c5a5345cb51ae [not win]
-  md5: a42e0a35b8be37667bb7df6fb51feded [win]
+  fn: xerces-c-3.1.2.tar.gz [not win]
+  fn: xerces-c-3.1.2.zip [win]
+  url: http://mirrors.ibiblio.org/apache/xerces/c/3/sources/xerces-c-3.1.2.tar.gz [not win]
+  url: http://mirrors.ibiblio.org/apache/xerces/c/3/sources/xerces-c-3.1.2.zip [win]
+  md5: 9eb1048939e88d6a7232c67569b23985 [not win]
+  md5: 2706ce8a720e24bea8296c595a65a7d0 [win]
 
 #requirements:
 
