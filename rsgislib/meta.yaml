@@ -3,7 +3,7 @@ package:
   version: "2.2.1036"
 
 build:
-    number: 1
+    number: 3
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib

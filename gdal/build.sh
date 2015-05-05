@@ -7,10 +7,10 @@ else
     PGFLAG="--with-pg=$PREFIX/bin/pg_config"
 fi
 
+CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 ./configure --with-python --prefix=$PREFIX \
 --with-geos=$PREFIX/bin/geos-config \
 --with-static-proj4=$PREFIX \
---with-netcdf=$PREFIX \
 --with-hdf5=$PREFIX \
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
@@ -20,6 +20,8 @@ fi
 --disable-rpath \
 --without-pam \
 $PGFLAG
+
+#--with-netcdf=$PREFIX \
 
 make -j 4
 make install

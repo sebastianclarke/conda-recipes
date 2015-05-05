@@ -13,7 +13,6 @@ requirements:
     - xerces-c
     - geos
     - proj4
-    - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
     - hdf4
@@ -25,7 +24,6 @@ requirements:
     - xerces-c
     - geos
     - proj4
-    - netcdf4 [not win]
     - postgresql [linux]
     - hdf5 1.8.14
     - hdf4
@@ -33,7 +31,7 @@ requirements:
     - armadillo [not win]
 
 build:
-  number: 11
+  number: 12
 
 test:
   files:

@@ -1,0 +1,22 @@
+package:
+  name: valgrind
+  version: "3.10.1"
+
+build:
+    number: 1
+
+source:
+  fn: valgrind-3.10.1.tar.bz2
+  url: http://valgrind.org/downloads/valgrind-3.10.1.tar.bz2
+
+requirements:
+  build:
+
+  run:
+
+
+about:
+  home: http://www.valgrind.org
+  license: GPLv2
+  summary: Valgrind is a GPL'd system for debugging and profiling Linux and Mac OSX programs. With Valgrind's tool suite you can automatically detect many memory management and threading bugs, avoiding hours of frustrating bug-hunting, making your programs more stable. You can also perform detailed profiling to help speed up your programs.
+
