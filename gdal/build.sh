@@ -3,27 +3,28 @@
 if [ `uname` == Darwin ]; then
     PGFLAG=""
     export LDFLAGS="-headerpad_max_install_names"
+#    export CC=clang
+#    export CXX=clang++
 else
     PGFLAG="--with-pg=$PREFIX/bin/pg_config"
 fi
 
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
-./configure --with-python --prefix=$PREFIX \
+./configure --prefix=$PREFIX \
 --with-geos=$PREFIX/bin/geos-config \
 --with-static-proj4=$PREFIX \
 --with-hdf5=$PREFIX \
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
 --with-armadillo=$PREFIX \
---without-pam \
+--with-netcdf==$PREFIX \
 --with-python \
 --disable-rpath \
 --without-pam \
 $PGFLAG
 
-#--with-netcdf=$PREFIX \
 
-make -j 4
+make
 make install
 
 # Copy data files 

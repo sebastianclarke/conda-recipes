@@ -3,7 +3,7 @@ package:
   version: "20150422"
 
 build:
-  number: 1
+  number: 2
 
 source:
   fn: parallel-20150422.tar.bz2

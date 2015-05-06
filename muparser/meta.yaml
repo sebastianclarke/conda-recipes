@@ -3,7 +3,7 @@ package:
   version: "2.2.5"
 
 build:
-  number: 1
+  number: 2
 
 source:
   svn_url: http://muparser.googlecode.com/svn/trunk

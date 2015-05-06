@@ -1,19 +1,21 @@
 package:
   name: armadillo
-  version: "5.000.1"
+  version: "4.650"
 
 source:
-  fn: armadillo-5.000.1.tar.gz
-  url: http://sourceforge.net/projects/arma/files/armadillo-5.000.1.tar.gz
+  fn: armadillo-4.650.4.tar.gz
+  url: http://sourceforge.net/projects/arma/files/armadillo-4.650.4.tar.gz
 
 requirements:
   build:
     - cmake
+    - hdf5
   run:
-    - cmake
+    - hdf5
+  
 
 build:
-  number: 0
+  number: 1
 
 about:
   home: http://arma.sourceforge.net/

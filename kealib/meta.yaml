@@ -3,7 +3,6 @@ package:
   version: "1.4.5"
 
 source:
-  #path: /Users/petebunting/Desktop/libkea-1.4.5
   #path: /Users/petebunting/Documents/kealib/
   hg_url: https://bitbucket.org/chchrsc/kealib/
  

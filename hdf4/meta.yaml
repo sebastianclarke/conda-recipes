@@ -7,14 +7,12 @@ source:
     url: http://www.hdfgroup.org/ftp/HDF/HDF_Current/src/hdf-4.2.11.tar.bz2
 
 build:
-    number: 3
+    number: 5
 
 requirements:
     build:
-       - gcc
        - jpeg
     run:
-       - gcc
        - jpeg
 test:
     imports:

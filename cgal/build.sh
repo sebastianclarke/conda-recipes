@@ -1,6 +1,9 @@
 #!/bin/bash
 
 if [ `uname` == Darwin ]; then
+	export CC=clang
+	export CXX=clang++
+	
     cmake -D CMAKE_INSTALL_PREFIX=$PREFIX \
     -D BOOST_ROOT=$PREFIX \
     -D BOOST_INCLUDE_DIR=$PREFIX/include \

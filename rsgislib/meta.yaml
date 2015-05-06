@@ -1,9 +1,9 @@
 package:
   name: rsgislib
-  version: "2.2.1036"
+  version: "2.2.1041"
 
 build:
-    number: 3
+    number: 0
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib

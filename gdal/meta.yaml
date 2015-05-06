@@ -11,27 +11,29 @@ requirements:
     - python
     - numpy
     - xerces-c
-    - geos
+    - geos 3.4.2
     - proj4
     - postgresql [linux]
     - hdf5 1.8.14
     - hdf4
     - curl [not win]
-    - armadillo [not win]
+    - armadillo 4.650 [not win]
+    - libnetcdf 4.3.3.1
   run:
     - python
     - numpy
     - xerces-c
-    - geos
+    - geos 3.4.2
     - proj4
     - postgresql [linux]
     - hdf5 1.8.14
     - hdf4
     - curl [not win]
-    - armadillo [not win]
+    - armadillo 4.650 [not win]
+    - libnetcdf 4.3.3.1
 
 build:
-  number: 12
+  number: 13
 
 test:
   files:

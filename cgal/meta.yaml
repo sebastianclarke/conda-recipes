@@ -7,7 +7,7 @@ source:
   url: https://gforge.inria.fr/frs/download.php/file/34703/CGAL-4.6.tar.bz2
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:

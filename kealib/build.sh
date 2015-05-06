@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ `uname` == Darwin ]; then
-	export CC=clang
-	export CXX=clang++
+	#export CC=clang
+	#export CXX=clang++
 	
 	#export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk
 	
