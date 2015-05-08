@@ -3,9 +3,8 @@ package:
   version: "1.4.5"
 
 source:
-  #path: /Users/petebunting/Desktop/libkea-1.4.5
-  #path: /Users/petebunting/Documents/kealib/
   hg_url: https://bitbucket.org/chchrsc/kealib/
+  hg_tag: kealib-1.4.5
  
 requirements:
   build:
@@ -22,7 +21,7 @@ test:
     - run_test.py
 
 build:
-  number: 6
+  number: 1
 
 about:
   home: https://bitbucket.org/chchrsc/kealib/
