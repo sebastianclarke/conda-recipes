@@ -22,7 +22,7 @@ requirements:
     - kealib 1.4.5
     - gmp
     - mpfr
-    - cgal
+    - cgal 4.6
     - python
     - numpy
   run:
@@ -37,7 +37,7 @@ requirements:
     - kealib 1.4.5
     - gmp
     - mpfr
-    - cgal
+    - cgal 4.6
     - python
     - numpy
 

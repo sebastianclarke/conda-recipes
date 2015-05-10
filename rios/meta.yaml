@@ -1,12 +1,13 @@
 package:
   name: rios
-  version: 1.3.2.333
+  version: 1.3.2
 
 build:
   number: 2
 
 source:
   hg_url: https://bitbucket.org/chchrsc/rios
+  hg_tag: rios-1.3.1
 
 requirements:
   build:
