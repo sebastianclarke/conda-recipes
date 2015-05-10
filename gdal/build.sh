@@ -32,3 +32,11 @@ mkdir -p $PREFIX/share/gdal/
 cp data/*csv $PREFIX/share/gdal/
 cp data/*wkt $PREFIX/share/gdal/
 
+if [ `uname` == Darwin ]; then
+	# Copy TIFF and GEOTIFF Headers so can build against gdal internal geotiff/tiff libraries
+	mkdir -p $PREFIX/include/gdal/frmts/gtiff/libgeotiff
+	cp frmts/gtiff/libgeotiff/*.h $PREFIX/include/gdal/frmts/gtiff/libgeotiff
+	cp frmts/gtiff/libgeotiff/*.inc $PREFIX/include/gdal/frmts/gtiff/libgeotiff
+	mkdir -p $PREFIX/include/gdal/frmts/gtiff/libtiff
+	cp frmts/gtiff/libtiff/*.h $PREFIX/include/gdal/frmts/gtiff/libtiff
+fi

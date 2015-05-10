@@ -1,2 +1,2 @@
-import Pysolar
+import pysolar
 print('Pysolar imported OK')

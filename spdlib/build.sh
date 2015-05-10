@@ -4,7 +4,7 @@
 hg update default
 
 if [ `uname` == Darwin ]; then
-    export DYLD_LIBRARY_PATH=$PREFIX/lib
+    #export DYLD_LIBRARY_PATH=$PREFIX/lib
     PYTHONLIB=$PREFIX/lib/libpython3.4m.dylib
 else
     export LD_LIBRARY_PATH=$PREFIX/lib
@@ -47,21 +47,27 @@ python setup.py build \
 --hdf5include=$PREFIX/include
 python setup.py install --prefix=$PREFIX
 
-cd ../python
+if [ `uname` == 'Linux' ]; then
+	cd ../python
+	
+	cmake -D CMAKE_INSTALL_PREFIX=$PREFIX/lib/python3.4 \
+	-D CMAKE_VERBOSE_MAKEFILE=ON \
+	-D SPDLIB_IO_INCLUDE_DIR=$PREFIX/include \
+	-D SPDLIB_IO_LIB_PATH=$PREFIX/lib \
+	-D GDAL_INCLUDE_DIR=$PREFIX/lib \
+	-D HDF5_INCLUDE_DIR=$PREFIX/include \
+	-D HDF5_LIB_PATH=$PREFIX/lib \
+	-D CMAKE_VERBOSE_MAKEFILE=ON \
+	-D BOOST_INCLUDE_DIR=$PREFIX/include \
+	-D BOOST_LIB_PATH=$PREFIX/lib \
+	-D PYTHON_INCLUDE_DIR=$PREFIX/include/python3.4m \
+	-D PYTHON_LIBRARY=$PYTHONLIB \
+	.
+	
+	make
+	make install
+fi
 
-cmake -D CMAKE_INSTALL_PREFIX=$PREFIX/lib/python3.4 \
--D CMAKE_VERBOSE_MAKEFILE=ON \
--D SPDLIB_IO_INCLUDE_DIR=$PREFIX/include \
--D SPDLIB_IO_LIB_PATH=$PREFIX/lib \
--D GDAL_INCLUDE_DIR=$PREFIX/lib \
--D HDF5_INCLUDE_DIR=$PREFIX/include \
--D HDF5_LIB_PATH=$PREFIX/lib \
--D CMAKE_VERBOSE_MAKEFILE=ON \
--D BOOST_INCLUDE_DIR=$PREFIX/include \
--D BOOST_LIB_PATH=$PREFIX/lib \
--D PYTHON_INCLUDE_DIR=$PREFIX/include/python3.4m \
--D PYTHON_LIBRARY=$PYTHONLIB \
-.
 
-make
-make install
+
+

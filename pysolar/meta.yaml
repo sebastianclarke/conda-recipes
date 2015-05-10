@@ -1,9 +1,9 @@
 package:
   name: pysolar
-  version: "0.4.3"
+  version: "0.7.1"
 
 source:
-  git_url: https://github.com/petebunting/pysolar.git
+  git_url: https://github.com/pingswept/pysolar.git
 
 requirements:
   build:

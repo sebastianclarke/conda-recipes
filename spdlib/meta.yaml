@@ -8,34 +8,34 @@ source:
 requirements:
   build:
     - cmake
-    - boost 1.54.0
+    - boost 1.58.0
     - hdf5 1.8.14
     - xerces-c
     - gsl
     - gdal 1.11.2
     - gmp
     - mpfr
-    - cgal 4.4
+    - cgal 4.6
     - liblas 1.7.0
     - laszip 2.2.0
     - python
     - numpy 
   run:
-    - boost 1.54.0
+    - boost 1.58.0
     - hdf5 1.8.14
     - xerces-c
     - gsl
     - gdal 1.11.2
     - gmp
     - mpfr
-    - cgal 4.4
+    - cgal 4.6
     - liblas 1.7.0
     - laszip 2.2.0
     - python
     - numpy 
 
 build:
-    number: 5
+    number: 6
 
 about:
   home: http://www.spdlib.org

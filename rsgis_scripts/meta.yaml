@@ -1,17 +1,17 @@
 package:
   name: rsgis_scripts
-  version: 20140905
+  version: 20150507
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgis_scripts/
 
 requirements:
   build:
-   - gdal
+   - gdal 1.11.2
    - numpy
    - matplotlib
   run:
-   - gdal
+   - gdal 1.11.2
    - numpy
    - matplotlib
 
