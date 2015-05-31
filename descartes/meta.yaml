@@ -1,0 +1,31 @@
+package:
+  name: descartes
+  version: 20150519
+
+source:
+  hg_url: https://bitbucket.org/sgillies/descartes
+
+
+requirements:
+  build:
+    - python
+    - cython
+    - distribute
+    - shapely
+    - matplotlib
+  run:
+    - python
+    - shapely
+    - matplotlib
+
+test:
+  imports:
+    - descartes
+
+build:
+    number: 1
+
+about:
+  home: https://bitbucket.org/sgillies/descartes/
+  license: BSD
+  summary: Use Shapely or GeoJSON-like geometric objects as matplotlib paths and patches.

@@ -62,5 +62,5 @@ else
 fi
 
 
-make
+make -j 4
 make install

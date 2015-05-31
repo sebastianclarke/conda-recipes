@@ -1,0 +1,30 @@
+package:
+  name: fastkml
+  version: 0.9
+
+build:
+  number: 2
+
+source:
+  git_url: https://github.com/cleder/fastkml.git
+
+requirements:
+  build:
+    - python
+    - pygeoif
+    - lxml
+    - dateutil
+    - shapely
+
+  run:
+    - python
+    - pygeoif
+    - lxml
+    - dateutil
+    - shapely
+
+
+about:
+  home: https://github.com/cleder/fastkml
+  license: GPL2
+  summary: Fastkml is a library to read, write and manipulate KML files.

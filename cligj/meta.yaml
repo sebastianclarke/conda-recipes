@@ -1,0 +1,27 @@
+package:
+  name: cligj
+  version: 0.1.1
+
+source:
+  git_url: https://github.com/mapbox/cligj.git
+
+
+requirements:
+  build:
+    - python
+    - click
+  run:
+    - python
+    - click
+
+test:
+  imports:
+    - cligj
+
+build:
+    number: 1
+
+about:
+  home: https://github.com/mapbox/cligj
+  license: MIT
+  summary: Click-based argument and option decorators for Python GIS command line programs.

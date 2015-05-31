@@ -1,0 +1,34 @@
+package:
+  name: owslib
+  version: 0.8.13
+
+source:
+  url: https://github.com/geopython/OWSLib/archive/0.8.13.tar.gz
+  fn: 0.8.13.tar.gz
+
+
+requirements:
+  build:
+    - python
+    - requests
+    - pillow
+    - pytz
+    - dateutil
+  run:
+    - python
+    - requests
+    - pillow
+    - pytz
+    - dateutil
+
+test:
+  imports:
+    - owslib
+
+build:
+    number: 1
+
+about:
+  home: https://geopython.github.io/OWSLib
+  license: MIT
+  summary: OWSLib is a Python package for client programming with Open Geospatial Consortium (OGC) web service (hence OWS) interface standards, and their related content models.

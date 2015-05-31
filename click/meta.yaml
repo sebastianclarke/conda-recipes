@@ -1,0 +1,20 @@
+package:
+  name: click
+  version: 4.0
+
+source:
+  git_url: https://github.com/mitsuhiko/click.git
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+build:
+  number: 1
+
+about:
+  home: https://github.com/mitsuhiko/click
+  license: MIT
+  summary: Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
