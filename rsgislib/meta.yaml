@@ -1,6 +1,6 @@
 package:
   name: rsgislib
-  version: "2.2.1046"
+  version: "2.2.1052"
 
 build:
     number: 0
