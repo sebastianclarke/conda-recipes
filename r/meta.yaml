@@ -1,16 +1,23 @@
 package:
   name: r
-  version: 3.1.0
+  version: 3.2.0
 
 source:
-  fn: R-3.1.1.tar.gz
-  url: http://cran.rstudio.com/src/base/R-3/R-3.1.1.tar.gz
+  fn: R-3.2.0.tar.gz
+  url: http://cran.rstudio.com/src/base/R-3/R-3.2.0.tar.gz
+
+build:
+  number: 1
 
 requirements:
   build:
     - tk
+    - gcc
+    - bzip2
   run:
     - tk
+    - gcc
+    - bzip2
 
 test:
   commands:

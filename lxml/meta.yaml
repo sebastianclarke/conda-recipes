@@ -1,0 +1,24 @@
+package:
+  name: lxml
+  version: 3.4.4
+
+build:
+  number: 1
+
+source:
+  fn: lxml-3.4.4.tar.gz
+  url: https://pypi.python.org/packages/source/l/lxml/lxml-3.4.4.tar.gz
+  md5: a9a65972afc173ec7a39c585f4eea69c
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+
+about:
+  home: https://github.com/lxml/lxml
+  license: BSD
+  summary: lxml is the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.

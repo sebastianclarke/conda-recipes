@@ -2,6 +2,9 @@ package:
   name: ne
   version: "2.6"
 
+build:
+  number: 1
+
 source:
   fn: ne-2.6.tar.gz
   url: http://ne.di.unimi.it/ne-2.6.tar.gz

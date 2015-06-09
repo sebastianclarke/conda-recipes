@@ -14,6 +14,7 @@ requirements:
     - dateutil
     - pysolar
     - pandas
+    - scipy
   run:
     - python
     - sixs
@@ -22,6 +23,7 @@ requirements:
     - dateutil
     - pysolar
     - pandas
+    - scipy
 
 build:
   number : 1

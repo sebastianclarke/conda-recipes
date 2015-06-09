@@ -2,6 +2,9 @@ package:
   name: libnetcdf
   version: 4.3.3.1
 
+build:
+  number: 1
+
 source:
   fn: netcdf-4.3.3.1.tar.gz
   url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.3.3.1.tar.gz
@@ -10,11 +13,11 @@ source:
 requirements:
   build:
     - curl
-    - hdf5
+    - hdf5 1.8.14
     - zlib
   run:
     - curl
-    - hdf5
+    - hdf5 1.8.14
     - zlib
 
 test:

@@ -1,0 +1,36 @@
+package:
+  name: fiona
+  version: 1.5.1
+
+source:
+  url: https://github.com/Toblerity/Fiona/archive/1.5.1.tar.gz
+  fn: 1.5.1.tar.gz
+
+
+requirements:
+  build:
+    - python
+    - cython 0.21.2
+    - six
+    - distribute
+    - nose
+    - pytest
+    - gdal 1.11.2
+    - cligj
+  run:
+    - python
+    - gdal 1.11.2
+    - cligj
+    - six
+
+test:
+  imports:
+    - fiona
+
+build:
+    number: 1
+
+about:
+  home: https://github.com/Toblerity/Fiona
+  license: MIT
+  summary: Fiona is OGR's neat, nimble, no-nonsense API for Python programmers.

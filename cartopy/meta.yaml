@@ -1,0 +1,52 @@
+package:
+  name: cartopy
+  version: 0.12.0
+
+source:
+  url: https://github.com/SciTools/cartopy/archive/v0.12.0.tar.gz
+  fn: v0.12.0.tar.gz
+
+
+requirements:
+  build:
+    - python
+    - numpy
+    - scipy
+    - cython 0.21.2
+    - six
+    - distribute
+    - nose
+    - pytest
+    - pyshp
+    - shapely
+    - proj4
+    - matplotlib
+    - gdal 1.11.2
+    - pyepsg
+    - pillow
+    - owslib
+  run:
+    - python
+    - numpy
+    - scipy
+    - six
+    - pyshp
+    - shapely
+    - proj4
+    - matplotlib
+    - gdal 1.11.2
+    - pyepsg
+    - pillow
+    - owslib
+
+test:
+  imports:
+    - cartopy
+
+build:
+    number: 1
+
+about:
+  home: http://scitools.org.uk/cartopy/
+  license: LGPLv3
+  summary: Cartopy is a Python package designed to make drawing maps for data analysis and visualisation easy.

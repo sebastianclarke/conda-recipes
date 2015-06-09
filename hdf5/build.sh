@@ -1,8 +1,14 @@
 #!/bin/bash
 
 if [ `uname` == Darwin ]; then
+	export CC=clang
+	export CXX=clang++
+	
 	./configure --prefix=$PREFIX --disable-static \
-	    --with-zlib=$PREFIX --enable-cxx --enable-shared
+	    --with-zlib=$PREFIX \
+	    --enable-cxx \
+	    --enable-shared \
+	    -with-pic
 else
 	./configure --prefix=$PREFIX --disable-static \
 		--enable-linux-lfs --with-zlib=$PREFIX \

@@ -11,7 +11,8 @@ requirements:
     - cmake
   run:
 
-test:
+build:
+  number: 1
 
 about:
   home: http://www.laszip.org/

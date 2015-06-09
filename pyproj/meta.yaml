@@ -1,0 +1,25 @@
+package:
+  name: pyproj
+  version: 1.9.4
+
+source:
+  git_url: https://github.com/jswhit/pyproj.git
+
+requirements:
+  build:
+    - python
+    - cython
+  run:
+    - python
+
+test:
+  imports:
+    - pyproj
+
+build:
+    number: 1
+
+about:
+  home: https://github.com/jswhit/pyproj
+  license: MIT
+  summary: Python interface to PROJ4 library for cartographic transformations.

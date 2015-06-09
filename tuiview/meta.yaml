@@ -18,7 +18,9 @@ requirements:
     - pyqt
 
 build:
-  number: 0
+  number: 2
+  osx_is_app: yes
+
 
 about:
   home: https://bitbucket.org/chchrsc/tuiview

@@ -1,0 +1,28 @@
+package:
+  name: pyepsg
+  version: 0.2.0
+
+source:
+  url: https://github.com/rhattersley/pyepsg/archive/v0.2.0.tar.gz
+  fn: v0.2.0.tar.gz
+
+
+requirements:
+  build:
+    - python
+    - requests
+  run:
+    - python
+    - requests
+
+test:
+  imports:
+    - pyepsg
+
+build:
+    number: 1
+
+about:
+  home: http://pyepsg.readthedocs.org
+  license: GPL
+  summary: Simple interface to epsg.io.

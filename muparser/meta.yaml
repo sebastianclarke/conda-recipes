@@ -1,12 +1,14 @@
 package:
   name: muparser
-  version: "2.2.3"
+  version: "2.2.5"
+
+build:
+  number: 2
 
 source:
-    fn: muparser_v2_2_3.zip
-    url: http://iweb.dl.sourceforge.net/project/muparser/muparser/Version%202.2.3/muparser_v2_2_3.zip
+  svn_url: http://muparser.googlecode.com/svn/trunk
+  svn_rev: 37
 
-requirements:
 
 about:
   home: http://muparser.beltoforion.de

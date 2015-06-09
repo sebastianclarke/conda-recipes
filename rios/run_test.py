@@ -35,7 +35,4 @@ try:
 except ImportError as err:
     raise ImportError(err)
 else:
-    try:
-        riostestutils.testAll()
-    except Exception as err:
-        print(err)
+    riostestutils.testAll()

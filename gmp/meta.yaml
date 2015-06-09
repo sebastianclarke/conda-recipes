@@ -1,13 +1,13 @@
 package:
   name: gmp
-  version: "5.1.2"
+  version: "6.0.0a"
 
 source:
-  fn: gmp-5.1.2.tar.bz2
-  url: http://ftp.gnu.org/gnu/gmp/gmp-5.1.2.tar.bz2
+  fn: gmp-6.0.0a.tar.bz2
+  url: https://gmplib.org/download/gmp/gmp-6.0.0a.tar.bz2
 
 build:
-  number: 0
+  number: 1
 
 about:
   home: http://gmplib.org/

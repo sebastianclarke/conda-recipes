@@ -1,10 +1,13 @@
 package:
   name: parallel
-  version: "20140822"
+  version: "20150422"
+
+build:
+  number: 2
 
 source:
-  fn: parallel-20140822.tar.bz2
-  url: http://ftp.gnu.org/gnu/parallel/parallel-20140822.tar.bz2
+  fn: parallel-20150422.tar.bz2
+  url: http://ftp.gnu.org/gnu/parallel/parallel-20150422.tar.bz2
 
 about:
   home: http://www.gnu.org/software/parallel/

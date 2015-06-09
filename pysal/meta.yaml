@@ -1,0 +1,28 @@
+package:
+  name: pysal
+  version: 1.9.1
+
+build:
+  number: 1
+
+source:
+  git_url: https://github.com/pysal/pysal.git
+
+requirements:
+  build:
+    - python
+    - numpy
+    - scipy
+  run:
+    - python
+    - numpy
+    - scipy
+
+test:
+  imports:
+    - pysal
+
+about:
+  home: http://pysal.readthedocs.org/en/latest/
+  license: BSD
+  summary: PySAL is an open source library of spatial analysis functions written in Python intended to support the development of high level applications.

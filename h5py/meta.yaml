@@ -1,21 +1,28 @@
 package:
   name: h5py
-  version: "2.3.1"
+  version: "2.5.0"
+
+build:
+  number: 1
 
 source:
-  fn:  h5py-2.3.1.tar.gz
-  url: https://pypi.python.org/packages/source/h/h5py/h5py-2.3.1.tar.gz
-  md5: 8f32f96d653e904d20f9f910c6d9dd91
+  fn:  h5py-2.5.0.tar.gz
+  url: https://pypi.python.org/packages/source/h/h5py/h5py-2.5.0.tar.gz
+  md5: 6e4301b5ad5da0d51b0a1e5ac19e3b74
 
 requirements:
   build:
     - python
     - numpy
-    - hdf5 1.8.13
+    - hdf5 1.8.14
+    - pkgconfig
+    - six
+    - cython
   run:
     - python
     - numpy
-    - hdf5 1.8.13
+    - hdf5 1.8.14
+    - six
 
 test:
     imports:
