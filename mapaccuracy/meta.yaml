@@ -1,0 +1,28 @@
+package:
+  name: mapaccuracy
+  version: 0.9.0
+
+source:
+  git_url: https://gillins@bitbucket.org/landcareresearch/mapaccuracy
+
+requirements:
+  build:
+    - python
+    - numpy
+    - gdal 1.11.*
+    - pyqt
+    - tuiview
+  run:
+    - python
+    - numpy
+    - gdal 1.11.*
+    - pyqt
+    - tuiview
+
+build:
+  number: 0
+
+about:
+  home: https://bitbucket.org/landcareresearch/mapaccuracy
+  license: GPLv2
+  summary: Utility for performing map accuracy tests
