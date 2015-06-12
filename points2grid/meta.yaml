@@ -1,0 +1,31 @@
+package:
+  name: points2grid
+  version: "1.3.0"
+
+build:
+    number: 0
+
+source:
+  git_url: https://github.com/CRREL/points2grid
+
+requirements:
+  build:
+    - cmake
+    - boost 1.58.0
+    - gdal 1.11.2
+    - curl
+
+  run:
+    - boost 1.58.0
+    - gdal 1.11.2
+    - curl
+
+test:
+  commands:
+    - points2grid -h   
+
+about:
+  home: https://github.com/CRREL/points2grid
+  license: BSD
+  summary: points2grid is a tool for creating Digital Elevation Models from point cloud data in ASCII and LAS format.
+
