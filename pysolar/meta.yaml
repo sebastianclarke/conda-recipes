@@ -1,9 +1,13 @@
 package:
   name: pysolar
-  version: "0.7.1"
+  version: "0.6"
 
 source:
   git_url: https://github.com/pingswept/pysolar.git
+  git_tag: 0.6
+  
+  patches:
+  - python3.patch
 
 requirements:
   build:
@@ -11,6 +15,7 @@ requirements:
     - setuptools
   run:
     - python
+
 
 about:
   home: http://pysolar.org

@@ -12,7 +12,7 @@ requirements:
     - numpy
     - matplotlib
     - dateutil
-    - pysolar >0.6
+    - pysolar ==0.6
     - pandas
     - scipy
     - nose
@@ -23,7 +23,7 @@ requirements:
     - numpy
     - matplotlib
     - dateutil
-    - pysolar >0.6
+    - pysolar ==0.6
     - pandas
     - scipy
 
