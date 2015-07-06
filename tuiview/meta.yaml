@@ -18,8 +18,7 @@ requirements:
     - pyqt
 
 build:
-  number: 2
-  osx_is_app: yes
+  number: 4
 
 
 about:
