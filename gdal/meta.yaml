@@ -14,7 +14,7 @@ requirements:
     - geos 3.4.2
     - proj4
     - postgresql [linux]
-    - hdf5 1.8.14
+    - hdf5 1.8.15.1
     - hdf4
     - curl [not win]
     - armadillo 4.650 [not win]
@@ -26,7 +26,7 @@ requirements:
     - geos 3.4.2
     - proj4
     - postgresql [linux]
-    - hdf5 1.8.14
+    - hdf5 1.8.15.1
     - hdf4
     - curl [not win]
     - armadillo 4.650 [not win]

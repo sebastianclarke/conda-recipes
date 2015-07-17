@@ -12,8 +12,10 @@ build:
 requirements:
     build:
        - jpeg
+       - zlib
     run:
        - jpeg
+       - zlib
 test:
     imports:
 
