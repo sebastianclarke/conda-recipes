@@ -4,7 +4,7 @@ mkdir -vp ${PREFIX}/bin;
 
 ARCH="$(uname 2>/dev/null)"
 
-export CFLAGS="-m64 -pipe -O2 -march=x86-64 -fPIC -I${PREFIX}/include"
+export CFLAGS="-pipe -O2 -fPIC -I${PREFIX}/include"
 export CXXFLAGS="${CFLAGS}"
 #export CPPFLAGS="-I${PREFIX}/include"
 
