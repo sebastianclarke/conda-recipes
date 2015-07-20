@@ -17,7 +17,7 @@ requirements:
     - hdf5 1.8.15.1
     - hdf4
     - curl [not win]
-    - armadillo 4.650 [not win]
+    - armadillo 5.200.2 [not win]
     - libnetcdf 4.3.3.1
   run:
     - python
@@ -29,7 +29,7 @@ requirements:
     - hdf5 1.8.15.1
     - hdf4
     - curl [not win]
-    - armadillo 4.650 [not win]
+    - armadillo 5.200.2 [not win]
     - libnetcdf 4.3.3.1
 
 build:
