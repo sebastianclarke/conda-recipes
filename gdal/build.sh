@@ -17,7 +17,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
 --with-armadillo=$PREFIX \
---with-netcdf==$PREFIX \
+--with-netcdf=$PREFIX \
 --with-openjpeg=$PREFIX \
 --with-python \
 --disable-rpath \
