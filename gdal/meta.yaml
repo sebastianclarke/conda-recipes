@@ -15,6 +15,7 @@ requirements:
     - proj4
     - postgresql [linux]
     - hdf5 1.8.15.1
+    - openjpeg
     - hdf4
     - curl [not win]
     - armadillo 5.200.2 [not win]
@@ -27,6 +28,7 @@ requirements:
     - proj4
     - postgresql [linux]
     - hdf5 1.8.15.1
+    - openjpeg
     - hdf4
     - curl [not win]
     - armadillo 5.200.2 [not win]
