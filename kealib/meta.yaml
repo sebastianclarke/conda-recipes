@@ -3,7 +3,6 @@ package:
   version: "1.4.5"
 
 source:
-  #path: /Users/petebunting/Documents/kealib/
   hg_url: https://bitbucket.org/chchrsc/kealib/
  
 requirements:
@@ -21,7 +20,7 @@ test:
     - run_test.py
 
 build:
-  number: 7
+  number: 8
 
 about:
   home: https://bitbucket.org/chchrsc/kealib/

@@ -9,7 +9,7 @@ requirements:
   build:
     - cmake
     - boost 1.58.0
-    - hdf5 1.8.14
+    - hdf5 1.8.15.1
     - xerces-c
     - gsl
     - gdal 1.11.2
@@ -22,7 +22,7 @@ requirements:
     - numpy 
   run:
     - boost 1.58.0
-    - hdf5 1.8.14
+    - hdf5 1.8.15.1
     - xerces-c
     - gsl
     - gdal 1.11.2
@@ -35,7 +35,7 @@ requirements:
     - numpy 
 
 build:
-    number: 6
+    number: 8
 
 about:
   home: http://www.spdlib.org
