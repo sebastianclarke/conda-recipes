@@ -14,7 +14,8 @@ requirements:
     - numba
     - gdal 1.11.2
     - rios
-    - gcc
+    - gcc # [osx]
+    - proj4 4.8.0
   run:
     - python
     - geos 3.4.2
@@ -22,7 +23,8 @@ requirements:
     - numba
     - gdal 1.11.2
     - rios
-    - gcc 
+    - gcc # [osx]
+    - proj4 4.8.0
 
 about:
   home: https://bitbucket.org/chchrsc/gdalutils/
