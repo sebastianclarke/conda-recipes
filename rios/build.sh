@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd rios
+#cd rios
 
 python setup.py install --prefix=$PREFIX
 
