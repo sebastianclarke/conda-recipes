@@ -1,18 +1,18 @@
 package:
   name: rsp
-  version: "1.0.15"
+  version: "1.2.0"
 
 source:
-  fn: sp_1.0-15.tar.gz
-  url: http://cran.r-project.org/src/contrib/sp_1.0-15.tar.gz
+  fn: sp_1.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/sp_1.2-0.tar.gz
 
 requirements:
   build:
-    - r
+    - r 3.2.2
     - proj4
     - geos
   run:
-    - r
+    - r 3.2.2
     - proj4
     - geos
 
