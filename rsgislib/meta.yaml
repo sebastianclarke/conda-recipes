@@ -3,7 +3,7 @@ package:
   version: "2.2.1061"
 
 build:
-    number: 0
+    number: 1
 
 source:
   hg_url: https://bitbucket.org/petebunting/rsgislib
@@ -17,7 +17,7 @@ requirements:
     - muparser
     - gsl
     - geos 3.4.2
-    - proj4
+    - proj4 4.9.1
     - gdal 1.11.2
     - kealib 1.4.5
     - gmp
@@ -32,7 +32,7 @@ requirements:
     - muparser
     - gsl
     - geos 3.4.2
-    - proj4
+    - proj4 4.9.1
     - gdal 1.11.2
     - kealib 1.4.5
     - gmp

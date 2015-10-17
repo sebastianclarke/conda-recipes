@@ -2,6 +2,9 @@ package:
   name: rsp
   version: "1.2.0"
 
+build:
+    number: 1
+
 source:
   fn: sp_1.2-0.tar.gz
   url: http://cran.r-project.org/src/contrib/sp_1.2-0.tar.gz
@@ -9,12 +12,12 @@ source:
 requirements:
   build:
     - r 3.2.2
-    - proj4
-    - geos
+    - proj4 4.9.1
+    - geos 3.4.2
   run:
     - r 3.2.2
-    - proj4
-    - geos
+    - proj4 4.9.1
+    - geos 3.4.2
 
 about:
   home: http://cran.r-project.org/web/packages/sp/index.html
