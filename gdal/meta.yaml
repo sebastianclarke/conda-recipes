@@ -12,7 +12,7 @@ requirements:
     - numpy
     - xerces-c
     - geos 3.4.2
-    - proj4
+    - proj4 4.9.1
     - postgresql [linux]
     - hdf5 1.8.15.1
     - openjpeg
@@ -25,7 +25,7 @@ requirements:
     - numpy
     - xerces-c
     - geos 3.4.2
-    - proj4
+    - proj4 4.9.1
     - postgresql [linux]
     - hdf5 1.8.15.1
     - openjpeg
@@ -35,7 +35,7 @@ requirements:
     - libnetcdf 4.3.3.1
 
 build:
-  number: 15
+  number: 17
 
 test:
   files:
