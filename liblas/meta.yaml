@@ -10,16 +10,16 @@ source:
 requirements:
   build:
     - cmake
-    - gdal 1.11.2
+    - gdal
     - laszip
-    - boost 1.58.0
+    - boost
   run:
-    - gdal 1.11.2
+    - gdal
     - laszip
-    - boost 1.58.0
+    - boost
 
 build:
-    number: 3
+    number: 4
 
 about:
   home: http://www.liblas.org/
