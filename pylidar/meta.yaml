@@ -15,6 +15,7 @@ requirements:
     - gdal
     - rios
     - numba
+    - h5py
 
 build:
   number: 0
