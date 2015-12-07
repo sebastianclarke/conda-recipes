@@ -1,5 +1,7 @@
 #!/bin/bash
 
+hg update gdal_2
+
 if [ `uname` == Darwin ]; then
     export DYLD_FALLBACK_LIBRARY_PATH=$PREFIX/lib
     cmake -D CMAKE_INSTALL_PREFIX=$PREFIX \
