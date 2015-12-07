@@ -1,6 +1,6 @@
 package:
   name: pylidar
-  version: 0.01
+  version: 0.03
 
 source:
   hg_url: https://bitbucket.org/chchrsc/pylidar
@@ -12,7 +12,7 @@ requirements:
   run:
     - python
     - numpy
-    - gdal 1.11.*
+    - gdal
     - rios
     - numba
 
