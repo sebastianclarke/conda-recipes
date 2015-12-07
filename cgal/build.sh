@@ -5,6 +5,7 @@ if [ `uname` == Darwin ]; then
 	export CXX=clang++
 	
     cmake -D CMAKE_INSTALL_PREFIX=$PREFIX \
+    -D CGAL_CXX_FLAGS="-I${PREFIX}/include" \
     -D BOOST_ROOT=$PREFIX \
     -D BOOST_INCLUDE_DIR=$PREFIX/include \
     -D MPFR_INCLUDE_DIR=$PREFIX/include \
@@ -21,6 +22,7 @@ if [ `uname` == Darwin ]; then
     .
 else
     cmake -D CMAKE_INSTALL_PREFIX=$PREFIX \
+    -D CGAL_CXX_FLAGS="-I${PREFIX}/include" \
     -D BOOST_ROOT=$PREFIX \
     -D BOOST_INCLUDE_DIR=$PREFIX/include \
     -D MPFR_INCLUDE_DIR=$PREFIX/include \
