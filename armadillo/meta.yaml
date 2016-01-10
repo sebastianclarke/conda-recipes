@@ -4,7 +4,7 @@ package:
 
 source:
   fn: armadillo-5.200.2.tar.gz
-  url: http://sourceforge.net/projects/arma/files/armadillo-5.200.2.tar.gz
+  url: http://downloads.sourceforge.net/project/arma/armadillo-6.200.2.tar.gz
 
 requirements:
   build:

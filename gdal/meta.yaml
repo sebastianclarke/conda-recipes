@@ -19,7 +19,7 @@ requirements:
     - hdf4
     - curl [not win]
     - armadillo 5.200.2 [not win]
-    - libnetcdf 4.3.3.1
+    - libnetcdf 4.3.3.1 [not osx]
   run:
     - python
     - numpy
@@ -32,7 +32,7 @@ requirements:
     - hdf4
     - curl [not win]
     - armadillo 5.200.2 [not win]
-    - libnetcdf 4.3.3.1
+    - libnetcdf 4.3.3.1 [not osx]
 
 build:
   number: 17
