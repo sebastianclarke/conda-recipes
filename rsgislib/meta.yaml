@@ -1,6 +1,6 @@
 package:
   name: rsgislib
-  version: "2.2.1064"
+  version: "2.2.1068"
 
 build:
     number: 1
@@ -11,33 +11,33 @@ source:
 requirements:
   build:
     - cmake
-    - boost
-    - hdf5
+    - boost 1.57.0
+    - hdf5 1.8.15.1
     - xerces-c
     - muparser
     - gsl
-    - geos
-    - proj4
-    - gdal 1.11.*
+    - geos 3.4.2
+    - proj4 4.9.1
+    - gdal 1.11.2
     - kealib
     - gmp
     - mpfr
-    - cgal
+    - cgal 4.7
     - python
     - numpy
   run:
-    - boost
-    - hdf5
+    - boost 1.57.0
+    - hdf5 1.8.15.1
     - xerces-c
     - muparser
     - gsl
-    - geos
-    - proj4
-    - gdal
+    - geos 3.4.2
+    - proj4 4.9.1
+    - gdal 1.11.2
     - kealib
     - gmp
     - mpfr
-    - cgal
+    - cgal 4.7
     - python
     - numpy
 

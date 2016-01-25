@@ -20,7 +20,7 @@ requirements:
     - rios
 
 build:
-  number: 2
+  number: 3
 
 about:
   home: http://rsgislib.org/arcsi
