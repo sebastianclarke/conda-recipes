@@ -1,23 +1,23 @@
 package:
   name: cgal
-  version: "4.6"
+  version: "4.7"
 
 source:
-  fn: CGAL-4.6.tar.bz2
-  url: https://gforge.inria.fr/frs/download.php/file/34703/CGAL-4.6.tar.bz2
+  fn: CGAL-4.7.tar.gz
+  url: https://github.com/CGAL/cgal/archive/releases/CGAL-4.7.tar.gz
 
 build:
-  number: 3
+  number: 0
 
 requirements:
   build:
     - cmake
-    - boost 1.58.0
+    - boost
     - gmp
     - mpfr
     - zlib
   run:
-    - boost 1.58.0
+    - boost
     - gmp
     - mpfr
     - zlib

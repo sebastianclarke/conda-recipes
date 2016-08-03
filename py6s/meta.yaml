@@ -11,7 +11,7 @@ requirements:
     - sixs
     - numpy
     - matplotlib
-    - dateutil
+    - python-dateutil
     - pysolar ==0.6
     - pandas
     - scipy
@@ -22,7 +22,7 @@ requirements:
     - sixs
     - numpy
     - matplotlib
-    - dateutil
+    - python-dateutil
     - pysolar ==0.6
     - pandas
     - scipy

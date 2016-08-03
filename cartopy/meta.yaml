@@ -1,10 +1,10 @@
 package:
   name: cartopy
-  version: 0.12.0
+  version: 0.13.0
 
 source:
-  url: https://github.com/SciTools/cartopy/archive/v0.12.0.tar.gz
-  fn: v0.12.0.tar.gz
+  url: https://github.com/SciTools/cartopy/archive/v0.13.0.tar.gz
+  fn: v0.13.0.tar.gz
 
 
 requirements:
@@ -12,14 +12,14 @@ requirements:
     - python
     - numpy
     - scipy
-    - cython 0.21.2
+    - cython
     - six
     - distribute
     - nose
     - pytest
     - pyshp
     - shapely
-    - proj4
+    - proj4 4.9.1
     - matplotlib
     - gdal 1.11.2
     - pyepsg
@@ -32,7 +32,7 @@ requirements:
     - six
     - pyshp
     - shapely
-    - proj4
+    - proj4 4.9.1
     - matplotlib
     - gdal 1.11.2
     - pyepsg

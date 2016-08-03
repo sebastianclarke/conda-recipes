@@ -26,13 +26,11 @@ of tests of some capabilities of RIOS.
 # Dan Clewley
 
 import os
-# Set GDAL_DATA variable to point to gdal data
-conda_prefix=os.getenv('PREFIX')
-os.putenv('GDAL_DATA',os.path.join(conda_prefix,'share','gdal'))
+if __name__ == '__main__':
 
-try:
-    from rios.riostests import riostestutils
-except ImportError as err:
-    raise ImportError(err)
-else:
-    riostestutils.testAll()
+    try:
+        from rios.riostests import riostestutils
+    except ImportError as err:
+        raise ImportError(err)
+    else:
+        riostestutils.testAll()

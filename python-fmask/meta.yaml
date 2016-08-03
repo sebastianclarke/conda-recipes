@@ -1,0 +1,26 @@
+package:
+  name: python-fmask
+  version: 0.1
+
+build:
+  number: 0
+
+source:
+  hg_url: https://bitbucket.org/chchrsc/python-fmask
+
+requirements:
+  build:
+    - python
+    - numpy
+    - gdal
+    - rios
+  run:
+    - python
+    - numpy
+    - gdal
+    - rios
+    
+about:
+  home: https://bitbucket.org/chchrsc/python-fmask
+  license: GPLv3
+  summary: Implementation in Python of the cloud and shadow algorithms known collectively as Fmask.

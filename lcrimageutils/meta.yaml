@@ -1,9 +1,9 @@
 package:
-  name: gdalutils
-  version: 20150507
+  name: lcrimageutils
+  version: 20151216
 
 source:
-  hg_url: https://bitbucket.org/chchrsc/gdalutils
+  hg_url: https://bitbucket.org/chchrsc/lcrimageutils
 
 requirements:
   build:
@@ -14,7 +14,8 @@ requirements:
     - numba
     - gdal 1.11.2
     - rios
-    - gcc
+    - gcc # [osx]
+    - proj4 4.9.1
   run:
     - python
     - geos 3.4.2
@@ -22,7 +23,8 @@ requirements:
     - numba
     - gdal 1.11.2
     - rios
-    - gcc 
+    - gcc # [osx]
+    - proj4 4.9.1
 
 about:
   home: https://bitbucket.org/chchrsc/gdalutils/

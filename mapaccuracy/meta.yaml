@@ -9,18 +9,18 @@ requirements:
   build:
     - python
     - numpy
-    - gdal 1.11.*
+    - gdal
     - pyqt
     - tuiview
   run:
     - python
     - numpy
-    - gdal 1.11.*
+    - gdal
     - pyqt
     - tuiview
 
 build:
-  number: 0
+  number: 1
 
 about:
   home: https://bitbucket.org/landcareresearch/mapaccuracy

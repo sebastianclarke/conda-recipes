@@ -47,7 +47,7 @@ python setup.py build \
 --hdf5include=$PREFIX/include
 python setup.py install --prefix=$PREFIX
 
-if [ `uname` == 'Linux' ]; then
+if [ `uname` == 'Linux' && $PY3K == "1" ]; then
 	cd ../python
 	
 	cmake -D CMAKE_INSTALL_PREFIX=$PREFIX/lib/python3.4 \
